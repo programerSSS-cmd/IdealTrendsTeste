@@ -4,8 +4,9 @@
   <head>
     <meta charset="UTF-8" />
     <title>IdealTrends</title>
-    <link href="css/cssPadrao.css" rel="stylesheet" />
-    <link href="css/cssNav.css" rel="stylesheet" />
+    <link href="css/padrao.css" rel="stylesheet" />
+    <link href="css/nav.css" rel="stylesheet" />
+    <link href="css/rodape.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
@@ -45,7 +46,7 @@
     </div>
     <header style="border: 1px solid black">
       <img src="img/img_nav.png" alt="Imagem do logo da empresa." />
-      <nav style="border: 1px solid black">
+      <nav id="navheader" style="border: 1px solid black">
         <ul class="navbar">
           <li class="navitem"><a href="#">Home</a></li>
           <li class="navitem">
@@ -202,6 +203,28 @@
 
     </section>
 
+    <footer>
+      <section id="sectionfooter">
+        <nav id="navrodape" style="border: 1px solid red">
+          <ul class="navbar">
+            <li class="navitem"><a href="#">Home</a></li>
+            <li class="navitem">
+              <a href="#">Empresa</a>
+
+            </li>
+            <li class="navitem">
+              <a href="#">Clientes</a>
+            </li>
+            <li class="navitem">
+              <a href="#">Contato</a>
+
+            </li>
+          </ul>
+        </nav>
+
+      </section>
+
+    </footer>
   </body>
 </html>
 
@@ -212,7 +235,7 @@
       slices: 15,
       boxCols: 8,
       boxRows: 4,
-      animSpeed: 500,
+      animSpeed: 450,
       pauseTime: 2000,
       startSlide: 0,
       directionNav: true,
