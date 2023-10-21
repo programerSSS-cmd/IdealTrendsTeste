@@ -11,3 +11,10 @@ header {
     margin: auto;
     display: flex;
 }
+
+h1 {
+    color: rgb(137, 137, 137);
+}
+a{
+    text-decoration: none;
+}

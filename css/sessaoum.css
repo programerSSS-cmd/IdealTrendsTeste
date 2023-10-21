@@ -1,0 +1,18 @@
+section#conteudoum {
+    display: flex;
+    width: 894px;
+    height: 290px;
+    margin: auto;
+}
+
+p#conteudo {
+    color: rgb(134, 134, 134);
+    text-align: left;
+    width: 569px;
+}
+
+li.requisitosp {
+    color: rgb(134, 134, 134);
+    margin-left: 3%;
+
+}

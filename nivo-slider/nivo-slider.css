@@ -136,3 +136,7 @@ div#slider {
 	width: 894px;
 	height: 290px;
 }
+
+section#sectionslider {
+	background-color: rgba(209, 209, 209);
+}

@@ -10,15 +10,14 @@
 div#divNumeroTop {
     height: 25px;
     border: 1px solid black;
-    background-color: rgb(2, 0, 133);
+    background-color: rgb(3, 0, 133);
     color: whitesmoke;
 }
 
 nav {
-    height: 50px;
+    height: 40px;
     font-size: 20px;
-    margin: auto 0px 0px 30%;
-    padding: 10px;
+    margin: auto 0px 0px 36%;
     z-index: 1000;
 }
 
@@ -39,7 +38,7 @@ li.navitem a {
     color: rgb(188, 188, 188);
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+
 }
 
 

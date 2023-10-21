@@ -1,0 +1,25 @@
+section#conteudodois {
+    width: 894px;
+    height: 350px;
+    margin: auto;
+}
+
+div#cardsdestaque {
+    display: flex;
+    text-align: left;
+}
+
+div.card {
+
+    width: 200px;
+    height: 220px;
+    border: 1px solid black;
+    margin: 14px;
+    text-align: center;
+}
+
+img.imgcard {
+    width: 196px;
+    height: 163px;
+
+}
