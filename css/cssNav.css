@@ -1,0 +1,78 @@
+/*Estilização da parte de cima do projeto que contém:
+
+ Numero para contato,
+ Menu com os subitens
+ Imagem do Logo
+
+ */
+
+/* Div que contém o numero da empresa*/
+div#divNumeroTop {
+    height: 25px;
+    border: 1px solid black;
+    background-color: rgb(2, 0, 133);
+    color: whitesmoke;
+}
+
+nav {
+    height: 50px;
+    font-size: 20px;
+    margin: auto 0px 0px 30%;
+    padding: 10px;
+    z-index: 1000;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+li.navitem {
+    float: left;
+}
+
+li.navitem a {
+    display: block;
+    color: rgb(188, 188, 188);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+/* Estilos de CSS para os subitens */
+li.navitem ul.subitens {
+    display: none;
+    position: absolute;
+    background-color: rgb(2, 0, 133);
+    list-style-type: none;
+    /* Removendo as bolinhas dos subitens */
+    padding: 0;
+    text-align: center;
+}
+
+li.navitem:hover ul.subitens {
+    display: block;
+}
+
+
+/* Estilos para sub-subitens */
+li.subitem ul.subsubitens {
+    display: none;
+    position: absolute;
+    background-color: rgb(62, 59, 240);
+    list-style-type: none;
+    /* Remova as bolinhas dos sub-subitens */
+    left: 100%;
+    top: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li.subitem:hover ul.subsubitens {
+    display: block;
+}
