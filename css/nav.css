@@ -1,77 +1,95 @@
-/*Estilização da parte de cima do projeto que contém:
-
- Numero para contato,
- Menu com os subitens
- Imagem do Logo
-
- */
-
-/* Div que contém o numero da empresa*/
 div#divNumeroTop {
-    height: 25px;
-    border: 1px solid black;
+    height: 28px;
     background-color: rgb(3, 0, 133);
     color: whitesmoke;
 }
 
+p#numnav {
+    font-weight: bold;
+    width: 894px;
+    height: 25px;
+    margin: auto;
+    padding-top: 5px;
+}
+
+/*css da imagem do navbar*/
+img#imgnav {
+
+    display: block;
+    margin-left: 2%;
+}
+
+/*css do navbar*/
 nav#navheader {
-    height: 40px;
-    font-size: 20px;
-    margin: auto 0px 0px 36%;
+
+    height: 30px;
+    font-size: larger;
     z-index: 1000;
+    margin-top: 70px;
 }
 
 ul.navbar {
+
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     z-index: 1000;
+
+
 }
 
 li.navitem {
+
     float: left;
+    text-align: right;
+    margin-left: 40px;
 }
 
 li.navitem a {
-    display: block;
+
+    width: 100px;
+    height: 450px;
     color: rgb(188, 188, 188);
     text-align: center;
-    padding: 14px 16px;
 
 }
 
 
 
 /* Estilos de CSS para os subitens */
-li.navitem ul.subitens {
+.subitens {
+    width: 120px;
+    height: 60px;
     display: none;
     position: absolute;
-    background-color: rgb(2, 0, 133);
     list-style-type: none;
-    /* Removendo as bolinhas dos subitens */
     padding: 0;
     text-align: center;
+    font-size: large;
 }
-
 li.navitem:hover ul.subitens {
     display: block;
 }
-
+.subitem {
+    background-color: rgb(2, 0, 133);
+    height: 20px;
+}
 
 /* Estilos para sub-subitens */
-li.subitem ul.subsubitens {
+.subsubitens {
+    width: 120px;
     display: none;
-    position: absolute;
+    position: relative;
     background-color: rgb(62, 59, 240);
     list-style-type: none;
-    /* Remova as bolinhas dos sub-subitens */
     left: 100%;
-    top: 0;
+    bottom: 100%;
     padding: 0;
     text-align: center;
+
 }
 
 li.subitem:hover ul.subsubitens {
-    display: block;
+    display: inline-block;
 }

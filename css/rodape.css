@@ -1,7 +1,29 @@
 nav#navrodape {
     width: 894px;
-    height: 290;
+    height: 100px;
     margin: auto;
-    
+
 }
 
+ul.navbarrodape {
+    width: 500px;
+    height: 70px;
+    margin: auto;
+    list-style-type: none;
+}
+
+li.navitemrodape {
+    font-size: larger;
+    float: left;
+    margin: 10px;
+}
+
+li.navitemrodape a {
+
+    display: block;
+    color: rgb(188, 188, 188);
+    text-align: center;
+    padding: 14px 16px;
+
+
+}

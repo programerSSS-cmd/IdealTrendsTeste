@@ -7,15 +7,18 @@ section#conteudodois {
 div#cardsdestaque {
     display: flex;
     text-align: left;
+    justify-content: space-between;
 }
 
 div.card {
 
     width: 200px;
     height: 220px;
-    border: 1px solid black;
-    margin: 14px;
-    text-align: center;
+    text-align: left;
+}
+
+div.card a {
+    color: rgba(54, 53, 53, 0.727);
 }
 
 img.imgcard {
