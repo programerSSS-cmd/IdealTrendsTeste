@@ -1,0 +1,69 @@
+@media screen and (max-width: 600px) {
+
+    /*numero acima da pagina*/
+    div#divNumeroTop {
+        height: 28px;
+        background-color: rgb(3, 0, 133);
+        color: whitesmoke;
+        text-align: right;
+    }
+
+    p#numnav {
+        font-weight: bold;
+        width: 570px;
+        height: 20px;
+        margin: auto;
+        padding-top: 5px;
+    }
+
+    /*imagem do header*/
+    img#imgnav {
+        display: none;
+    }
+
+    /*Navbar*/
+    header {
+        height: 60px;
+    }
+
+    nav#navheader {
+        width: 100%;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    /* Estilos para sub-subitens */
+    .subsubitens {
+        left: -100%;
+    }
+
+    li.navitem {
+        margin-left: 50px;
+    }
+
+    /*carousel*/
+    .nivoSlider {
+        
+        width: 580px !important; 
+        height: 200px !important;
+       
+    }
+
+    /*coteudoum*/
+    section#conteudoum img{
+        display: none;
+    }
+    section#conteudoum{
+        
+        width: 560px !important;
+        height: 20px;
+        
+    }
+    div#conteudoum{
+       
+        width: 280px;
+        height: 230px;
+        margin: auto;
+        
+    }
+}
