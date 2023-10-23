@@ -14,14 +14,12 @@ p#numnav {
 
 /*css da imagem do navbar*/
 img#imgnav {
-
     display: block;
     margin-left: 2%;
 }
 
 /*css do navbar*/
 nav#navheader {
-
     height: 30px;
     font-size: larger;
     z-index: 1000;
@@ -29,33 +27,25 @@ nav#navheader {
 }
 
 ul.navbar {
-
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     z-index: 1000;
-
-
 }
 
 li.navitem {
-
     float: left;
     text-align: right;
     margin-left: 40px;
 }
 
 li.navitem a {
-
     width: 100px;
     height: 450px;
     color: rgb(188, 188, 188);
     text-align: center;
-
 }
-
-
 
 /* Estilos de CSS para os subitens */
 .subitens {
@@ -68,9 +58,11 @@ li.navitem a {
     text-align: center;
     font-size: large;
 }
+
 li.navitem:hover ul.subitens {
     display: block;
 }
+
 .subitem {
     background-color: rgb(2, 0, 133);
     height: 20px;
@@ -87,7 +79,6 @@ li.navitem:hover ul.subitens {
     bottom: 100%;
     padding: 0;
     text-align: center;
-
 }
 
 li.subitem:hover ul.subsubitens {

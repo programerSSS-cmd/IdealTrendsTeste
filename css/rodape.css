@@ -2,7 +2,6 @@ nav#navrodape {
     width: 894px;
     height: 100px;
     margin: auto;
-
 }
 
 ul.navbarrodape {
@@ -19,11 +18,8 @@ li.navitemrodape {
 }
 
 li.navitemrodape a {
-
     display: block;
     color: rgb(188, 188, 188);
     text-align: center;
     padding: 14px 16px;
-
-
 }

@@ -11,10 +11,9 @@ div#cardsdestaque {
 }
 
 div.card {
-
     width: 200px;
     height: 220px;
-    text-align: left;
+    margin: auto;
 }
 
 div.card a {
@@ -24,5 +23,4 @@ div.card a {
 img.imgcard {
     width: 196px;
     height: 163px;
-
 }

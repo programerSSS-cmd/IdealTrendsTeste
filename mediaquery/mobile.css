@@ -10,7 +10,7 @@
 
     p#numnav {
         font-weight: bold;
-        width: 570px;
+        width: 500px;
         height: 20px;
         margin: auto;
         padding-top: 5px;
@@ -23,13 +23,14 @@
 
     /*Navbar*/
     header {
+        width: 580px;
         height: 60px;
     }
 
     nav#navheader {
-        width: 100%;
+        width: 580px;
         height: 20px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     /* Estilos para sub-subitens */
@@ -43,27 +44,73 @@
 
     /*carousel*/
     .nivoSlider {
-        
-        width: 580px !important; 
+        width: 500px !important;
         height: 200px !important;
-       
     }
 
     /*coteudoum*/
-    section#conteudoum img{
+    section#conteudoum img {
         display: none;
     }
-    section#conteudoum{
-        
-        width: 560px !important;
+
+    section#conteudoum {
+        width: 500px !important;
         height: 20px;
-        
     }
-    div#conteudoum{
-       
+
+    div#conteudoum {
         width: 280px;
         height: 230px;
         margin: auto;
-        
+    }
+
+    p#conteudoum {
+        text-align: left;
+        width: 279px !important;
+    }
+
+    /*coteudodois*/
+    h1#destaques {
+        text-align: center !important;
+    }
+
+    section#conteudodois {
+        width: 580px !important;
+        height: 950px !important;
+        background-color: rgba(2, 0, 133, 0.125)
+    }
+
+    div#cardsdestaque {
+        display: inline !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    div.card {
+        width: 200px;
+        height: 220px;
+        text-align: center !important;
+    }
+
+    div.card p {
+        text-align: left !important;
+    }
+
+    /*rodape*/
+    nav#navrodape {
+        width: 500px;
+        height: 100px;
+        margin: auto;
+    }
+
+    ul.navbarrodape {
+        width: 500px;
+        height: 70px;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    footer {
+        height: 100px;
     }
 }
